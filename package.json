@@ -16,8 +16,11 @@
     "axios": "^1.13.6",
     "zod": "^4.3.6"
   },
+  "files": [
+    "build"
+  ],
   "bin": {
-    "my-test-mcp": "./index.js"
+    "mcp-test": "./build/index.js"
   },
   "devDependencies": {
     "@types/node": "^25.3.5",
