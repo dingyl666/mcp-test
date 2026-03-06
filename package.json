@@ -5,7 +5,8 @@
   "main": "./build/index.js",
   "scripts": {
     "build": "tsc",
-    "dev":"tsx ./index.ts"
+    "prepare": "tsc",
+    "dev": "tsx ./src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -16,9 +17,6 @@
     "axios": "^1.13.6",
     "zod": "^4.3.6"
   },
-  "files": [
-    "build"
-  ],
   "bin": {
     "mcp-test": "./build/index.js"
   },
